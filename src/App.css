@@ -1,0 +1,66 @@
+@import-normalize;
+
+*, *::before, *::after{
+  font-family: Gotham Rounded, sans-serif;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: #15202B;
+  min-height:100vh;
+}
+
+.bg-dark{
+  background-color: #15202B !important;
+}
+
+html{
+  font-size: 25px;
+}
+
+body{
+  padding:0px;
+  margin:0px;
+}
+
+.profile{
+  padding-top: 20px;
+}
+
+.profileList__row{
+  margin-top: 10px;
+}
+
+.profileList__label{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: aliceblue;
+}
+
+.profileList__value{
+  font-weight: 300;
+  color: aliceblue;
+}
+
+.card-container{
+  padding-top: 20px;
+}
+
+.repo_header{
+  color: aliceblue;
+}
+
+.repo__value{
+  font-weight: 300;
+  color: black;
+}
+
+.repo__row{
+  margin-top: 0px;
+}
+
+.alert{margin-bottom: 0px !important;}
+
+.list_Item{
+  text-decoration: none;
+}
